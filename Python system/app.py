@@ -8,7 +8,7 @@ def conectar_banco():
         user="root",
         password="",
         database="sistema de cadastro",
-        port=3307
+        port=3306
     )
 
 janela = tk.Tk()
@@ -75,3 +75,4 @@ def cadastro():
 tk.Button(janela, text="Cadastrar", command=cadastro).pack(pady=10)
 
 janela.mainloop()
+
